@@ -10,9 +10,6 @@ assignees: ''
 ---
 name:
 about:
-title:
-labels:
-assignees:
 ---
 
-**Wie stellen wir uns die Lösung vor?**
+###Wie stellen wir uns die Lösung vor?
