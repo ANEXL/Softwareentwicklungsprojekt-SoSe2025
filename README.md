@@ -13,3 +13,19 @@ Dieses Projekt ist eine **mobile Anwendung** zur **einfachen Dokumentation des T
 Die Entwicklung erfolgt im Rahmen des Moduls "Softwareentwicklung" und dient der praktischen Vertiefung von **C# und Objektorientierter Programmierung (OOP)**.
 
 **Eine detaillierte Beschreibung der Projektziele und des Funktionsumfangs finden Sie im [Wiki unter Zielstellung](https://github.com/ANEXL/Softwareentwicklungsprojekt-SoSe2025/wiki/Zielstellung).**
+
+## Übersicht zu KI-Nutzung
+
+| Einsatzzweck                               | Verwendetes Modell     | Erfahrung / Bewertung der Nützlichkeit                        |
+| ------------------------------------------ | ---------------------- | ------------------------------------------------------------- |
+| Anforderungsanalyse                        | z. B. ChatGPT-4o       | z. B. Gute Strukturierung, aber fehlender Bezug zum Use Case. |
+| Architekturvorschläge / Designideen        |                        |                                                               |
+| Code-Generierung (z. B. Klassen, Methoden) |                        |                                                               |
+| Testfallgenerierung (z. B. Unit Tests)     |                        |                                                               |
+| Refactoring-Vorschläge                     |                        |                                                               |
+| Code Review                                |                        |                                                               |
+| Dokumentation (README, API-Doku etc.)      |                        |                                                               |
+| Fehlersuche / Debugginghilfe               |                        |                                                               |
+| Versionsverwaltung (Git-Strategien)        |                        |                                                               |    
+| Kommunikation (z. B. Commit Messages)      |                        |                                                               |
+| Sonstiges                                  |                        |                                                               |
