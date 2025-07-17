@@ -1,24 +1,41 @@
-﻿namespace FitnessTracker
+﻿//using static Android.Print.PrintAttributes;
+//using static Java.Util.Jar.Attributes;
+namespace FitnessTracker
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+
 
         public MainPage()
         {
             InitializeComponent();
         }
+        int workoutCount = 0;
 
-        private void OnCounterClicked(object? sender, EventArgs e)
+        private void AddWorkoutBtn_Clicked(object sender, EventArgs e)
         {
-            count++;
+            workoutCount++;
+            string btnName = $"Workout {workoutCount}";
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+            Button newworkout = new Button();
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+
+
+            MainStack.Children.Add(newworkout);
+
+            newworkout.Text = btnName;
+            newworkout.BackgroundColor = Color.FromArgb("#4CAF50");
+            newworkout.TextColor = Color.Parse("red");
+            newworkout.FontSize = 20;
+            newworkout.Padding = 10;
+            newworkout.Margin = 20;
+            newworkout.Clicked += (s, args) =>
+            {
+                //Navigation.PushAsync(new AddWorkoutPage());
+                newworkout.Text = "Clicked!";
+            };
+
+
         }
     }
 }
