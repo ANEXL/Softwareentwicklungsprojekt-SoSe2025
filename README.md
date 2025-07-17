@@ -1,6 +1,6 @@
 # Fitness-Tracker für das Modul "Softwareentwicklung"
 
-![Projekt Status: In Vorbereitung](https://img.shields.io/badge/Status-In%20Vorbereitung-blue)
+![Projekt Status: In Bearbeitung](https://img.shields.io/badge/Status-In%20Bearbeitung-blue)
 ![Zielsprache: C#](https://img.shields.io/badge/Sprache-C%23-blueviolet)
 ![Framework: .NET MAUI](https://img.shields.io/badge/Framework-.NET%20MAUI-623696)
 ![Datenbank: SQLite](https://img.shields.io/badge/Datenbank-SQLite-003B57)
