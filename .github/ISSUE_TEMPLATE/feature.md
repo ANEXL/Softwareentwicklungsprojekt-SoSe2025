@@ -12,4 +12,4 @@ name:
 about:
 ---
 
-###Wie stellen wir uns die Lösung vor?
+#Wie stellen wir uns die Lösung vor?
