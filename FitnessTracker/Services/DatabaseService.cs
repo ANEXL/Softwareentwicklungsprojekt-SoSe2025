@@ -84,8 +84,5 @@ namespace FitnessTracker.Services
         {
             return _datenbank.Table<Workout>().ToListAsync();
         }
-
-        // HINWEIS: Methoden für TrainingSession bleiben weiterhin entfernt,
-        // da sie nicht Teil des fixen Datenbankdiagramms sind.
     }
 }
