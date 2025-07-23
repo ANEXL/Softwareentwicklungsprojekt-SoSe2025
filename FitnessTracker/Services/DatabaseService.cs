@@ -16,13 +16,14 @@ namespace FitnessTracker.Services
             // Konstruktor: Initialisiert die Datenbankverbindung und erstellt Tabellen.
             var datenbankPfad = Path.Combine(FileSystem.AppDataDirectory, "FitnessTracker.db3");
             _datenbank = new SQLiteAsyncConnection(datenbankPfad);
+            System.Diagnostics.Debug.WriteLine(FileSystem.AppDataDirectory);
         }
 
         // Initialisiert die Datenbank: Erstellt Tabellen, falls sie noch nicht existieren.
         // Fügt beispielhaft einige Übungen hinzu, wenn die Tabelle leer ist.
         public async Task InitialisiereDatenbankAsync()
         {
-            // Tabellen erstellen mit den neuen Klassennamen
+            // Tabellen erstellen
             await _datenbank.CreateTableAsync<Uebung>();    // Tabelle für Übungen erstellen (UebungsTbl)
             await _datenbank.CreateTableAsync<Workout>();   // Tabelle für Workouts/Sätze erstellen (WorkoutTbl)
 
@@ -40,9 +41,10 @@ namespace FitnessTracker.Services
         // CRUD-Operationen für Uebung
 
         // Ruft alle Übungen aus der Datenbank ab.
-        public Task<List<Uebung>> GetUebungenAsync()
+        public async Task<List<Uebung>> GetUebungenAsync()
         {
-            return _datenbank.Table<Uebung>().ToListAsync();
+            var result = await _datenbank.Table<Uebung>().ToListAsync();
+            return result;
         }
 
         // Speichert eine Übung in der Datenbank (fügt hinzu oder aktualisiert).
