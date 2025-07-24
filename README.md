@@ -18,7 +18,7 @@ Die Entwicklung erfolgt im Rahmen des Moduls "Softwareentwicklung" und dient der
 
 | Einsatzzweck                               | Verwendetes Modell     | Erfahrung / Bewertung der Nützlichkeit                        |
 | ------------------------------------------ | ---------------------- | ------------------------------------------------------------- |
-| Anforderungsanalyse                        | z. B. ChatGPT-4o       | z. B. Gute Strukturierung, aber fehlender Bezug zum Use Case. |
+| Anforderungsanalyse                        |        | |
 | Architekturvorschläge / Designideen        | Gemini 2.5 Flash       | versucht moeglichst viele Best-Practices umzusetzen und daran zu erinnern |
 | Code-Generierung (z. B. Klassen, Methoden) | Gemini 2.5 Pro         | Aenderungsvorschlaege oftmals unvollstaendig (fehlende using Anweisungen oder Kontext gebundene Aenderungen)    |
 | Testfallgenerierung (z. B. Unit Tests)     |                        |                                                               |
