@@ -1,6 +1,6 @@
 # Fitness-Tracker für das Modul "Softwareentwicklung"
 
-![Projekt Status: In Bearbeitung](https://img.shields.io/badge/Status-In%20Bearbeitung-blue)
+![Projekt Status: Abgeschlossen](https://img.shields.io/badge/Status-Abgeschlossen-blue)
 ![Zielsprache: C#](https://img.shields.io/badge/Sprache-C%23-blueviolet)
 ![Framework: .NET MAUI](https://img.shields.io/badge/Framework-.NET%20MAUI-623696)
 ![Datenbank: SQLite](https://img.shields.io/badge/Datenbank-SQLite-003B57)
@@ -18,12 +18,12 @@ Die Entwicklung erfolgt im Rahmen des Moduls "Softwareentwicklung" und dient der
 
 | Einsatzzweck                               | Verwendetes Modell     | Erfahrung / Bewertung der Nützlichkeit                        |
 | ------------------------------------------ | ---------------------- | ------------------------------------------------------------- |
-| Anforderungsanalyse                        |        | |
+| Anforderungsanalyse                        |                        |                                                               |
 | Architekturvorschläge / Designideen        | Gemini 2.5 Flash       | versucht moeglichst viele Best-Practices umzusetzen und daran zu erinnern |
 | Code-Generierung (z. B. Klassen, Methoden) | Gemini 2.5 Pro         | Aenderungsvorschlaege oftmals unvollstaendig (fehlende using Anweisungen oder Kontext gebundene Aenderungen)    |
 | Testfallgenerierung (z. B. Unit Tests)     |                        |                                                               |
 | Refactoring-Vorschläge                     |                        |                                                               |
-| Code Review                                |                        |                                                               |
+| Code Review                                | Gemini 2.5 Pro         | gute Uebersichtlichkeit                                       |
 | Dokumentation (README, API-Doku etc.)      |                        |                                                               |
 | Fehlersuche / Debugginghilfe               | GitHub CoPilot         | aufgrund von Arbeit mit komplettem Kontext sehr effektiv      |
 | Versionsverwaltung (Git-Strategien)        |                        |                                                               |    
